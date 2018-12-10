@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="app">
+        <header>
+            <h1>Cars are Us!</h1>
+            <nav>
+                <router-link exact to="/">Home</router-link> |
+                <router-link to="/about">About</router-link> |
+                <router-link exact to="/car">Cars List</router-link> |
+                <router-link to="/car/edit">New Car</router-link> |
+            </nav>
+            <user-msg></user-msg>
+
+        </header>
+        <router-view></router-view>
+        <footer>
+            coffeerights 2018
+        </footer>
+    </div>
+
+    <script src="lib/vue.js"></script>
+    <script src="lib/vue-router.js"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

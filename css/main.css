@@ -1,0 +1,62 @@
+header{
+    background-color: lightblue;
+    padding: 10px;
+}
+footer {
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+
+.car-list li {
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid burlywood;
+    margin: 5px;
+    text-align: center;
+}
+
+.car-list li img {
+    max-width: 100px;
+}
+
+.danger {
+    color: red;
+}
+
+.sababa {
+    color: lightgreen;
+}
+
+.up-down-container {
+    background-color: lightblue;
+    padding: 20px;
+}
+.user-details-container {
+    background-color: lightseagreen;
+    padding: 20px;
+}
+
+.router-link-active {
+    background-color: white;
+    padding: 2px;
+    color: darkcyan;
+}
+
+.user-msg {
+    background-color: lightgray;
+    padding: 10px;;
+    position: fixed;
+    top:0;
+    right:0;
+}
+
+.user-msg.success {
+    background-color: lightgreen;
+}
+
+.user-msg.error {
+    background-color: lightcoral;
+}
+
+
